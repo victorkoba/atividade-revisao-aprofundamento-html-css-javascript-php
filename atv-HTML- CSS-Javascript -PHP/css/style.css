@@ -1,0 +1,458 @@
+/**************************************** Cadastro e-commerce ******************************************************************/
+
+/* Nav bar */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-fluid{
+    background-color: #084F8C;
+    height: 130px;
+    display: flex;
+    align-items: baseline;
+}
+
+.active{
+    background-color: #F26430;
+    text-align: center;
+    align-items: center;
+}
+
+
+img{
+    width: 100px;
+    border-radius: 10px;
+}
+
+ul,li,a{
+    color: #F2F2F2 !important;
+}
+
+.li-exibir-dados{
+    color: black !important;
+}
+
+button{
+    background-color: #F26430 !important;
+    border: #F26430 !important;
+    color: #F2F2F2;
+}
+
+.container{
+    background-color: #084F8C;
+    width: 550px;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    color: #F2F2F2;
+    border-radius: 10px;
+}
+
+.exibe-feedback{
+    background-color: #084F8C;
+    width: 550px;
+    box-shadow: 0.8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #F2F2F2;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.comentario{
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 80%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.form-control{
+    background-color: #38a65e;
+}
+
+.fundo-exibicao-feedback{
+    background-color: #38a65e;
+    width: 90%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-exibir-feedback{
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 80%;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    color: #F2F2F2;
+    border-radius: 10px;
+}
+
+/* Home */
+
+.div-principal{
+    background-color: #084F8C;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F2F2F2;
+    border-radius: 10px;
+}
+
+#main-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.separar{
+    display: flex;
+    text-align: center ;
+    align-items: center;
+    gap: 50px;
+}
+
+.alinhamento{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#h1-home{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.integrantes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Cadastro Cliente*/
+
+.Titulo-cadastro {
+    color: #F2F2F2;
+    margin-bottom: 20px;
+}
+
+#Form-php {
+    background-color: #084F8C;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #F2F2F2;
+    font-size: 16px;
+}
+
+.info-usuario{
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.body-form{
+    display: flex;
+    justify-content: center;
+
+}
+
+#body_cadastro{
+    background: linear-gradient(90deg, rgba(11, 107, 191, 1) 0%, rgba(8, 79, 140, 1) 28%, rgba(56, 166, 95, 1) 100%);
+}
+
+.Inform-Cliente {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #38a65e;
+    color: #337437;
+}
+
+#Bot-Cliente {
+    background-color: #F26430;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+#Bot-Cliente:hover {
+    background-color: #337437;
+}
+/* -------------------------------------------------------------- */
+
+
+.card-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column; 
+}
+
+.confirmacao-inform {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    max-width: 400px;
+    text-align: center;
+    margin: 20px;
+}
+
+.titulo-confirm {
+    color: #4CAF50;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.mensagem-confirm h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.client-inform {
+    list-style-type: none;
+}
+
+.client-inform li {
+    font-size: 16px;
+    color: black;
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.client-inform li strong {
+    color: #4CAF50;
+}
+
+/* Reserva */
+
+.div-alinha-reserva{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#form-reserva {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 800px;
+    height: 500px;
+    background: #084F8C;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.label-reserva {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.input-reserva {
+    width: 300px;
+    height: 30px;
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+    background-color: #f9f9f9;
+    border-radius: 7px;
+    border: 2px solid #dcdcdc;
+}
+
+#body-reserva {
+    background-color: white;
+}
+
+.botao-agendar {
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+    background-color: #f9f9f9;
+    border-radius: 42px;
+    border: 2px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 76px;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px #ffffff;
+    margin-top: 30px;
+}
+
+.botao-agendar:hover {
+    background: linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+    background-color: #e9e9e9;
+}
+
+.botao-agendar:active {
+    position: relative;
+    top: 1px;
+}
+
+#h2-reserva{
+    color: green;
+    font-size: 38px;
+    margin-bottom: 25px;
+}
+
+.p-reserva-confirmada{
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+#body-reserva-confirmada{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-reserva-confirmada{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+    background: white;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.div-alinha-exibe-reserva{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.body-exibe-reserva{
+    background: linear-gradient(90deg, rgba(11, 107, 191, 1) 0%, rgba(8, 79, 140, 1) 28%, rgba(56, 166, 95, 1) 100%);
+}
+
+@media (max-width: 480px) {
+    .container, .div-principal, .exibe-feedback, .confirmacao-inform {
+        width: 100%;
+        height: auto;
+    }
+
+    #form-reserva {
+        width: 100%;
+        height: auto;
+    }
+
+    .input-reserva, .botao-agendar {
+        width: 90%;
+    }
+
+    .separar {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #Bot-Cliente {
+        width: 80px;
+        height: 35px;
+    }
+
+    #h2-reserva {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .container, .div-principal, .exibe-feedback, .confirmacao-inform {
+        width: 80%;
+    }
+
+    #form-reserva {
+        width: 90%;
+        height: auto;
+    }
+
+    .input-reserva, .botao-agendar {
+        width: 80%;
+    }
+
+    .separar {
+        gap: 30px;
+    }
+
+    #Bot-Cliente {
+        width: 90px;
+        height: 35px;
+    }
+
+    #h2-reserva {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container, .div-principal, .exibe-feedback, .confirmacao-inform {
+        width: 70%;
+    }
+
+    #form-reserva {
+        width: 80%;
+        height: auto;
+    }
+
+    .input-reserva, .botao-agendar {
+        width: 70%;
+    }
+
+    .separar {
+        gap: 40px;
+    }
+
+    #Bot-Cliente {
+        width: 100px;
+        height: 40px;
+    }
+
+    #h2-reserva {
+        font-size: 36px;
+    }
+}
